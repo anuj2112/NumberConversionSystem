@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1640689029 source:h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\main.cpp
+	<iostream>
+	"Decimal.h"
+	"Binary.h"
+	"Conversions.h"
+	"Hexadecimal.h"
+	"Octal.h"
+
+1640687278 source:h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\decimal.cpp
+	"Decimal.h"
+	<iostream>
+
+1640685823 h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\decimal.h
+	"Conversions.h"
+
+1640606395 source:h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\hexadecimal.cpp
+	"Hexadecimal.h"
+
+1640688747 h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\hexadecimal.h
+	<string.h>
+	<iostream>
+	"Conversions.h"
+
+1640689926 source:h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\binary.cpp
+	"Binary.h"
+	<iostream>
+	<math.h>
+
+1640685434 h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\binary.h
+	"Conversions.h"
+
+1640613030 source:h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\conversions.cpp
+	"Conversions.h"
+
+1640683844 h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\conversions.h
+
+1640625833 source:h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\octal.cpp
+	"Octal.h"
+	<iostream>
+	<math.h>
+
+1640687801 h:\engineering\second year\3rd sem\software devlopment 1 c++\numberconversionsystem\octal.h
+	"Conversions.h"
+
