@@ -17,7 +17,7 @@ for(i=0; decimal_number>0; i++)
 binary_numbers[i]=decimal_number%2; //remainder
 decimal_number= decimal_number/2;
 }
-cout<<"Binary of the given number= ";
+cout<<"Equivalent binary number is: ";
 for(i=i-1 ;i>=0 ;i--)
 {
 cout<<binary_numbers[i];//printing array
@@ -30,7 +30,7 @@ for(j=0; decimal_number>0; j++){
     octal_number[j]=decimal_number%8;
     decimal_number= decimal_number/8;
 }
-cout<<"octal of the given number= ";
+cout<<"Equivalent octal number is: ";
 for(j=j-1 ;j>=0 ;j--)
 {
 cout<<octal_number[j];
@@ -53,7 +53,7 @@ void Decimal::to_hexadecimal(){
         k++;
         decimal_number = decimal_number/16;
     }
-cout<<"Equivalent Hexadecimal Value: "<<endl;
+cout<<"Equivalent hexadecimal number is: ";
     for(k=k-1; k>=0; k--){
         cout<<hexaDecimalNum[k];}
 

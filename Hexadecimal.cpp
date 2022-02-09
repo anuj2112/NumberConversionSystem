@@ -33,7 +33,7 @@ Hexadecimal::~Hexadecimal()
                 power = power * 16;
             }
         }
-        cout<<decimal_number;
+        cout<<"Equivalent Decimal number is: "<<decimal_number;
         }
         else{
             cout<<"Enter valid hexadecimal number";
@@ -64,6 +64,7 @@ Hexadecimal::~Hexadecimal()
         int is_correct_format = is_hexadecimal_number_in_correctFormat();
         if (is_correct_format == 1)
         {
+            cout<<"Equivalent Binary number is: ";
             while (i < hexadecimal_number.size())
             {
 
@@ -123,10 +124,11 @@ Hexadecimal::~Hexadecimal()
                 }
                 i++;
             }
+            cout<<endl;
         }
         else
         {
-            cout << "Incorrect number Format";
+            cout << "Incorrect number Format"<<endl;
         }
     }
     void Hexadecimal::to_octal()
@@ -162,7 +164,7 @@ Hexadecimal::~Hexadecimal()
             decimal_number = decimal_number / 8;
             i++;
         }
-        cout << "\nEquivalent Octal Value: ";
+        cout << "\nEquivalent Octal number is: ";
         for (i = (i - 1); i >= 0; i--)
         {
             cout << octal_number[i];
@@ -170,7 +172,7 @@ Hexadecimal::~Hexadecimal()
         cout << endl;
     }
         else{
-            cout<<"Enter valid hexadecimal number";
+            cout<<"Enter valid hexadecimal number"<<endl;
         }
     }
 

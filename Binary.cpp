@@ -43,12 +43,13 @@ Binary::~Binary()
                 base = base * 2;
             }
 
-            cout << "Decimal number is: " << decimal_number;
+            cout << "Equivalent Decimal number is: " << decimal_number;
         }
         else
         {
             cout << "Enter valid binary number";
         }
+        cout<<endl;
     }
     void Binary::to_octal()
 {
@@ -77,6 +78,7 @@ Binary::~Binary()
     {
             cout << "Enter valid binary number";
     }
+    cout<<endl;
 }
 
 void Binary::to_hexadecimal()
@@ -86,7 +88,7 @@ void Binary::to_hexadecimal()
     for(i=0;i<20;i++ ){
         hexa[i] = 0;
     }
-    cout<<" Hexadecimal of given number is: ";
+
     for(i=0;binary_number>0;i++)
     {
         for(int y=0;y<4;y++)
@@ -96,6 +98,7 @@ void Binary::to_hexadecimal()
              hexa[i]+=rem*pow(2,y);
        }
     }
+    cout<<" Equivalent hexadecimal number is: ";
     while(i>0)
     {
         i--;

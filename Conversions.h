@@ -5,7 +5,7 @@
 class Conversions
 {
     public:
-        /** Default constructor */
+
         Conversions();
         virtual void to_decimal(){}
         virtual void to_binary() {}
